@@ -10,7 +10,7 @@ steps :
     timeoutInSeconds: 400
     command: |
        chmod +x hello.rb
-       ./hello.rb > result.txt		
+       ruby hello.rb > result.txt		
 
 outputArtifacts:
   - name: OUTPUT
