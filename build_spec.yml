@@ -9,8 +9,8 @@ steps :
     name: "Ruby Build Source 1"
     timeoutInSeconds: 400
     command: |
-	chmod +x hello.rb
-	./hello.rb > result.txt		
+       chmod +x hello.rb
+       ./hello.rb > result.txt		
 
 outputArtifacts:
   - name: OUTPUT
